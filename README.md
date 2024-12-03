@@ -2,7 +2,7 @@
 
 ### Login credential
 
-username: admin
+email: admin@admin.com
 
 password: admin
 
