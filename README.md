@@ -24,6 +24,18 @@ password: admin
 
 ### Installation
 
+make sure change the Database configuration:
+
+```
+# in database/sequelize/sequelize.ts
+dialect: "postgres",
+host: "localhost",
+username: "postgres",
+password: "docker",
+database: "postgres",
+port: 5432,
+```
+
 make sure add the PORT:
 
 ```
